@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Layout } from '../../components/Layout';
-import { useAuth } from '../../contexts/AuthContext';
 import api from '../../api/axios';
 import type { Lecture } from '../../types';
 
